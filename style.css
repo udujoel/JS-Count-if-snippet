@@ -1,0 +1,28 @@
+#button {
+  font-size: 40px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+#display {
+  display: inline-block;
+  font-size: 440px;
+  text-align: center;
+  height: 440px;
+  z-index: -2;
+}
+body,
+input {
+  background: #ff5733;
+}
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
